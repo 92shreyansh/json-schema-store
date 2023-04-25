@@ -5,13 +5,12 @@
 
     "type": "object",
     "required": [
-        "context",
-        "message"
+        "context"
     ],
     "additionalProperties": false,
     "properties": {
         "context": {
-            "$ref": "https://raw.githubusercontent.com/92shreyansh/json-schema-store/master/FIS10/1.0.0/bap_context.json"
+            "$ref": "./bap_context.json"
         },
         "message": {
             "type": "object",
