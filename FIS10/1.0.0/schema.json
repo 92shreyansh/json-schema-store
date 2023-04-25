@@ -7,9 +7,9 @@
     "properties": {
         "search":{
             "type":"array",
-            "minLength":1,
+            "minItems":1,
             "items": {
-                "$ref": "https://raw.githubusercontent.com/92shreyansh/json-schema-store/master/FIS10/1.0.0/search.json"
+                "$ref": "./search.json"
             }
         }
     }
