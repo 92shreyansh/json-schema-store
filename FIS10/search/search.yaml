@@ -6,7 +6,7 @@ allOf:
   - $ref: https://raw.githubusercontent.com/beckn/protocol-specifications/core-v1.0.0/api/transaction/components/io/Search.yaml
   - properties:
       context:
-        $ref: ./commonm/bap_context.yaml
+        $ref: ../commonm/bap_context.yaml
       message:
         type: object
         required:
