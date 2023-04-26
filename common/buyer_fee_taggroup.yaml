@@ -1,0 +1,36 @@
+$schema: http://json-schema.org/draft-07/schema
+$id: https://raw.githubusercontent.com/92shreyansh/json-schema-store/master/common/buyer_fee_taggroup.yaml
+allOf:
+  - $ref: https://raw.githubusercontent.com/beckn/protocol-specifications/core-v1.0.0/schema/TagGroup.yaml
+  - required:
+      - descriptor
+      - display
+      - list
+    properties:
+      descriptor:
+        required:
+          - code
+        properties:
+          code:
+            enum:
+              - BUYER_FEES
+      display:
+        default: false
+      list:
+        minItems: 1
+        items:
+          required:
+            - descriptor
+            - value
+          properties:
+            descriptor:
+              required:
+                - code
+              properties:
+                code:
+                  enum:
+                    - BUYER_FINDER_FEE_AMOUNT
+                    - BUYER_FINDER_FEE_PERCENTAGE
+            value:
+              type: string
+              pattern: '^(?:0|[1-9]\d*)(?:\.(?!.*000)\d+)?$'
