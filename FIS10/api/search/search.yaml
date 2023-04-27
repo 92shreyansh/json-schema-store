@@ -13,13 +13,11 @@ allOf:
           - intent
         properties:
           intent:
-            type: object
             oneOf:
-              - ./intent_item_name.yaml
-              - ./intent_category_code.yaml
-              - type: object
+              - $ref: ./intent_item_name.yaml
+              - $ref: ./intent_category_code.yaml
           tags:
             type: array
             items:
               allOf: 
-                - $ref: ../../common/buyer_fee_taggroup.yaml
+                - $ref: ../../../common/buyer_fee_taggroup.yaml
