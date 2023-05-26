@@ -8,3 +8,13 @@ country:
       description: United States
       refrence: None
       api: all
+fulfilment:
+  type:
+    - value: ONLINE
+      description: Online type
+      reference: None
+      api: all
+    - value: OFFLINE
+      description: Offline type
+      refrence: None
+      api: all
