@@ -1,0 +1,10 @@
+country:
+  code:
+    - value: IND
+      description: India
+      refrence: None
+      api: *
+    - value: US
+      description: United States
+      refrence: None
+      api: *
