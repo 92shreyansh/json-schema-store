@@ -2,9 +2,9 @@ country:
   code:
     - value: IND
       description: India
-      refrence: None
-      api: *
+      reference: None
+      api: all
     - value: US
       description: United States
       refrence: None
-      api: *
+      api: all
