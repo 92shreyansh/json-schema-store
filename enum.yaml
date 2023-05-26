@@ -18,3 +18,12 @@ fulfilment:
       description: Offline type
       refrence: None
       api: all
+  code:
+    - value: IND11
+      description: India
+      reference: None
+      api: all
+    - value: US11
+      description: United States
+      refrence: None
+      api: all
