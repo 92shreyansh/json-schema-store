@@ -22,3 +22,14 @@ order:
         - code: BUYER_FINDER_FEE_PERCENTAGE
           description: Description about the tags
           reference: <PR/Issue/Discussion Links md format text>
+    - code: TEST_TAG_GROUP_1
+      description: Description about the tags
+      reference: <PR/Issue/Discussion Links md format text>
+      list: 
+        - code: TAG_1
+          description: Description about the tags
+          reference: <PR/Issue/Discussion Links md format text>
+        - code: TAG_2
+          description: Description about the tags
+          reference: <PR/Issue/Discussion Links md format text>
+
