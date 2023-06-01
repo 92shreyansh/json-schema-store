@@ -1,28 +1,28 @@
 sequence: 
-  - step_1:
-      name: Step 1
-      $ref: ./base/search/example_0.yaml
-  - step_2:
-      name: Step 2
-      $ref: ./base/on_search/example_0.yaml
-  - step_3:
-      name: Step 3
-      $ref: ./base/select/example_0.yaml
-  - step_4:
-      name: Step 4
-      $ref: ./base/on_select/example_0.yaml
-  - step_5:
-      name: Step 5
-      $ref: ./base/init/example_0.yaml
-  - step_6:
-      name: Step 6
-      $ref: ./base/on_init/example_0.yaml
-  - step_7:
-      name: Step 7
-      $ref: ./base/confirm/example_0.yaml
-  - step_8:
-      name: Step 8
-      $ref: ./base/status/example_0.yaml
-  - step_9:
-      name: Step 9
-      $ref: ./base/on_status/example_0.yaml
+  - step_1
+  - step_2
+  - step_3
+  - step_4
+  - step_5
+  - step_6
+  - step_7
+  - step_8
+  - step_9
+step_1:
+  $ref: ./base/search/example_0.yaml'
+step_2:
+  $ref: ./base/on_search/example_0.yaml
+step_3:
+  $ref: ./base/select/example_0.yaml
+step_4:
+  $ref: ./base/on_select/example_0.yaml
+step_5:
+  $ref: ./base/init/example_0.yaml
+step_6:
+  $ref: ./base/on_init/example_0.yaml
+step_7:
+  $ref: ./base/confirm/example_0.yaml
+step_8:
+  $ref: ./base/status/example_0.yaml
+step_9:
+  $ref: ./base/on_status/example_0.yaml
